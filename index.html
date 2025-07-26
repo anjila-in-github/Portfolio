@@ -9,7 +9,7 @@
 </head>
 <body>
 <div id="header">
-    <div id="container">
+    <div class="container">
         <nav>
             <img src="img/logo.png" class="logo">
             <ul>
@@ -21,22 +21,71 @@
             </ul>
         </nav>
         <div class="header-text">
-            <p>Website developer</p>
-            <h1>Hello, I'm <span>Anjila</span><br>from Nepal</h1>
+            
+            <h1>Hello There, <br>It's me <span>Anjila</span><br>from Nepal</h1>
         </div>
     </div>
 </div>
 
-
+<!-- About Section -->
 <div id="about">
-    <div id="container">
-        <div id="row">
-            <div id="about-col-1">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
                 <img src="img/photo.jpeg" >
             </div>
-             <div id="about-col-2">
-                <h1>About me</h1>
-             </div>
+             <div class="about-col-2">
+                <h1 class="subtitle">About me</h1>
+                <p>I'm Anjila, a front-end web developer ,wordpress developerand a 3d dobject designer who enjoys turning complex problems into elegant, interactive interfaces.
+
+                    I build responsive websites and web apps using HTML, CSS, JavaScript, and Wordpress and also Blender. I pay close attention to detail and always aim for clean, maintainable code.
+
+                    I believe good design and good code go hand in hand. That’s why I work closely with designers and clients to bring ideas to life with performance and usability in mind.
+
+                    Let's build something amazing together!
+
+                </p>
+
+    <div class="tab-titles">
+        <p class="tab-links active-link" onclick="opentab('skills')"> Skills</p>
+        <p class="tab-links" onclick="opentab('education')"> Education</p>
+        <p class="tab-links" onclick="opentab('training')"> Training</p>
+        <p class="tab-links" onclick="opentab('experiecnce')"> Experience</p>
+    </div>
+    
+    <div class="tab-contents active-tab" id="skills">
+        <ul>
+            <li><span>Website Development</span><br>Userfriendly Website development</li>
+            <li><span>Wordpress Development</span><br>Wordpress Website development</li>
+            <li><span>3D Object Design</span><br>3D object design</li>
+            <li><span>Canva</span><br>Designing logos and ads on canvas</li>
+        </ul>
+    </div>
+
+<div class="tab-contents" id="education">
+        <ul>
+            <li><span>2020</span><br>SEE from Kavre English Secondary School </li>
+            <li><span>2020-2024</span><br>Diploma in Information Technology from Nepal Banepa Polytechinic Institute</li>
+            
+        </ul>
+    </div>
+    
+    <div class="tab-contents" id="training">
+        <ul>
+            <li><span>13April-1June 2024</span><br>Wordpress Development at Dreams Animation Studios And Academy</li>
+            <li><span>2June-August 2024</span><br>3D Designing at Dreams Animation Studios And Academy</li>
+            
+        </ul>
+    </div>
+            
+    <div class="tab-contents" id="experiecnce">
+        <ul>
+            <li><span>4August-9October2024</span><br>Internee(Jr.3D Designer)at Dreams Animation Studios And Academy</li>
+            
+        </ul>
+    </div>
+
+        </div>
         </div>
     </div>
 </div>
@@ -44,6 +93,7 @@
 
 
 
+<script src="script.js"></script>
 
 </body>
 </html>
