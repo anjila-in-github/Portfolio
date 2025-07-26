@@ -57,11 +57,13 @@ nav ul li a:hover::after{
     
 }
 .header-text{
+    color: black;
     margin-top: 5%;
     font-size: 30px;
 
 }
 .header-text h1{
+    color: black;
     font-size: 50px;
     margin-top: 20px;
 }
