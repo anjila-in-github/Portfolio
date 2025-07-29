@@ -4,6 +4,9 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background: #080808;
      color: #fff;
@@ -260,3 +263,30 @@ form .btn2{
 }
 
 
+/* Responsive Design *
+@media only screen and (max-width: 600px) {
+    .header-text h1{
+        font-size: 40px;
+    }
+    .about-col-1, .about-col-2{
+        flex-basis: 100%;
+    }
+    .tab-titles{
+        flex-direction: column;
+        align-items: center;
+    }
+    .tab-links{
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .services-list{
+        grid-template-columns: 1fr;
+    }
+}
+    */
+
+    #msg{
+        color: #61b752;
+        margin-top: 40px;
+        display: block;
+    }
