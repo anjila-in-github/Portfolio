@@ -14,13 +14,22 @@ Welcome to my personal portfolio! This is a responsive web application built to 
 
 ## 🚀 Technologies Used
 
-- HTML5
-- CSS3 / Tailwind / SCSS
-- JavaScript / TypeScript
-- React / Vue / Svelte (or plain JS)
-- EmailJS / Formspree (for contact form)
-- GitHub Pages / Netlify / Vercel (for hosting)
+- HTML
+- CSS
+- JavaScript
+- Email/Google Spreadsheet(for contact form)
+- GitHub Pages (for hosting)
 
 ---
+## 📦 Installation
+
+Clone the repository and run locally:
+
+```bash
+git clone https://github.com/anjila-in-github/Portfolio.git
+cd Portfolio
+
+npm install
+npm run dev  # or npm star
 
 
