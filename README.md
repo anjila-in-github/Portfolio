@@ -33,3 +33,8 @@ npm install
 npm run dev  # or npm star
 
 
+
+✍️ Author
+Name: Anjila Shrestha
+
+
